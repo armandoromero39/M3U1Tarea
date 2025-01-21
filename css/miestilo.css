@@ -1,0 +1,166 @@
+body {
+    font-family: 'Kanit';
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: #3486e4;
+    padding: 16px 0;
+    box-shadow: 0 0 10px black inset;
+}
+
+.img-header {
+    text-align: center;
+    border: thin solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+}
+
+nav {
+    background-color: #6da9ed;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px black inset;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 0 0 10px black inset; */
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul li a {
+    height: 40px;
+    color: white;
+    text-decoration: none;
+    /* padding: 3px 6px; */
+    margin: 0;
+    display: block;
+    align-content: center;
+    text-align: center;
+
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    background-color: #3486e4;
+    clear: both;
+    color: #fcf9f9;
+    box-shadow: 0 0 10px rgb(8, 0, 0) inset;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+
+}
+
+nav ul li a.activo {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #2e64a1;
+    font-weight: 400;
+}
+
+.bienvenidos {
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.testimonios {
+    width: 25%;
+}
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bienvenidos p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.testimonio {
+    background-color:aliceblue;
+    padding: 16px;
+}
+
+.testimonio .cita {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    display: block;
+}
+
+.testimonio .autor {
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    margin: 16px 0;
+}
+
+.historia p {
+    font-size: 12px;
+}
+
+.personas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.persona {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+
+.persona img {
+    border-radius: 50%;
+    max-width: 75%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.persona h5,
+.persona h6 {
+    margin: 0;
+    font-weight: normal;
+    color: #2e64a1;
+}
+
+.persona h5 {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.persona h6 {
+    font-size: 11px;
+    font-style: italic;
+}
+
+.persona p {
+    color: #666;
+    font-size: 10px;
+}
